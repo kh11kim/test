@@ -1,0 +1,128 @@
+/* displaytag */
+/* 
+
+*/
+#content th.sorted a, #content th.sortable a, #content th.sorted a:visited, #content th.sortable a:visited {
+	background-position: left;
+	padding-left: 1em;
+	text-align:left;
+	display: block;
+	width: 100%;
+	background-repeat: no-repeat;
+	color: #fff;
+	text-decoration: none;
+}
+th.sortable a {
+	background-image: url(icons/arrow_off.png);
+}
+th.order1 a {
+	background-image: url(icons/arrow_down.png);
+}
+th.order2 a {
+	background-image: url(icons/arrow_up.png);
+}
+
+#content tr.odd:hover{
+	background-color: #F3F1E3;
+}
+
+#content td a,
+#content td a:VISITED {
+	text-decoration: none;
+	color: #06c;
+}
+
+#content .standardlist td a.active, #content .standardlist td a.active:VISITED {
+	background: url("../images/selected.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+	font-weight: normal;
+	margin-right: 0px;
+	color: #06c;
+}
+.inactive {
+	font-style: normal;
+}
+
+/* Standard List */
+table.standardlist {
+	empty-cells: show;
+	min-width: 50%;
+	width: auto;
+}
+
+.standardlist th {
+	color: white;
+	background: #80a7e0;
+	border-bottom: 2px solid #F3F1E3;
+	border-top: 2px solid #F3F1E3;
+}
+
+
+.standardlist caption {
+	background-color: white;
+	padding: 5px;
+}
+
+#content .standardlist th.sorted a, 
+#content .standardlist th.sortable a, 
+#content .standardlist th.sorted a:visited, 
+#content .standardlist th.sortable a:visited {
+	background-position: left;
+	padding-left: 1em;
+	text-align: left;
+	display: block;
+	width: 100%;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+#content .standardlist td a,
+#content .standardlist td a:VISITED {
+	text-decoration: none;
+	color: #06c;
+}
+#content .standardlist tr:hover a, .standardlist tr.odd:hover a, .standardlist tr.odd td:hover a{
+	color: white;
+}
+
+.standardlist tr {
+	border-width: 1px 1px 1px 1px;
+	border-spacing: 2px;
+	border-style: dotted;
+	border-color: #E2D5BE;
+}
+
+.standardlist tr.odd {
+	background-color: #FFFFFF;
+}
+
+.standardlist tr.odd:hover {
+	background-color: #F3F1E3;
+}
+
+.standardlist tr.even {
+	background-color: #FFFFFF;
+}
+
+.standardlist tr.even:hover {
+	background-color: #F3F1E3;
+}
+
+.standardlist td {
+	border-bottom: 1px solid #F3F1E3;
+	padding-left: 2px;
+	line-height: 80%;
+}
+
+.pagelinks {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align:center;
+}
+.pagebanner {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align:center;
+}
